@@ -9,6 +9,8 @@ render(){
           <Item key={todos.task} todos = {todos}/>
         )
       });
+    }
+    
   return (<div className="List">
       <h3> Latest Todos </h3>
       {todoItems}
